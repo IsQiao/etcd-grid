@@ -1,0 +1,23 @@
+div.explorer {
+  height: 100%;
+  min-width: 200px;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  background-color: #e6e9eb;
+
+  border-right: 1px solid #ccc;
+}
+
+div.explorer .titlebar {
+  border-bottom: 1px solid #ccc;
+  background-color: gray;
+}
+
+div.explorer .titlebar p {
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 0;
+  color: white;
+  padding: 2px;
+}

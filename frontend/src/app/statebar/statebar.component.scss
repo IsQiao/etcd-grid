@@ -1,0 +1,19 @@
+div.statebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  background-color: #e6e9eb;
+  text-align: center;
+  z-index: 2;
+}
+
+div.statebar p {
+  margin-bottom: 0;
+}
+
+.right {
+  float: right;
+  margin-right: 10px;
+}

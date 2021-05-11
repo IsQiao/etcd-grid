@@ -1,0 +1,19 @@
+div.app-menu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.app-menu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+div.app-menu a:hover {
+  background-color: #777;
+}
+
